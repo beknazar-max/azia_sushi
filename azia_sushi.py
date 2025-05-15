@@ -118,7 +118,6 @@ def send_photo(chat_id, category):
 
 def clear_messages(chat_id):
 
-    bot.send_message(chat_id, "Возвращаемся к началу...")
+    bot.send_message(chat_id, "Возвращаемся к началу")
 
 bot.polling(none_stop=True)
-
